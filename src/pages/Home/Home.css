@@ -3,7 +3,6 @@
 .clearfix:after { clear: both; }
 
 body {
-	background: #2f3238;
 	color: #fff;
 	font-weight: 400;
 	font-size: 1em;
@@ -627,7 +626,6 @@ figure.effect-steve figcaption {
 }
 
 figure.effect-steve img {
-	opacity: 1;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: perspective(1000px) translate3d(0,0,0);
@@ -647,7 +645,7 @@ figure.effect-steve h2 {
 }
 
 figure.effect-steve h2:before {
-	box-shadow: 0 1px 10px rgba(0,0,0,0.5);
+	box-shadow: 0 1px 10px rgba(174, 174, 174, 0.50);
 }
 
 figure.effect-steve p {
@@ -678,14 +676,6 @@ figure.effect-steve:hover p {
 	opacity: 1;
 	-webkit-transform: scale3d(1,1,1);
 	transform: scale3d(1,1,1);
-}
-
-figure.effect-jazz {
-  background-color: rgba(58,52,42,0);
-}
-
-figure.effect-jazz img {
-	opacity: 0.4;
 }
 
 figure.effect-jazz figcaption::after,

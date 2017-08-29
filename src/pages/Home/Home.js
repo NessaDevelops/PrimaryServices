@@ -162,7 +162,7 @@ class Home extends Component {
               <img src={require("../../imgs/2.jpg")} alt="img25"/>
               <figcaption>
                 <h2><span>Professional</span></h2>
-                <p>VieW Jobs</p>
+                <p>View Jobs</p>
                 <a href="#">View more</a>
               </figcaption>			
             </figure>
