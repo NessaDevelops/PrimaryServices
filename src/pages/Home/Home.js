@@ -30,14 +30,14 @@ class Home extends Component {
             <figure className="effect-honey">
               <img src={require("../../imgs/2.jpg")} alt="img04"/>
               <figcaption>
-                <h2><span>Professional</span><br/>><i>View Jobs</i></h2>
+                <h2><span>Professional</span><br/><i>View Jobs</i></h2>
                 <a href="#">View more</a>
               </figcaption>			
             </figure>
             <figure className="effect-honey">
               <img src={require("../../imgs/1.jpeg")} alt="img05"/>
               <figcaption>
-                <h2>Customer <span>Service</span><br/>><i>VIEWS JOBS</i></h2>
+                <h2>Customer <span>Service</span><br/><i>VIEWS JOBS</i></h2>
                 <a href="#">View more</a>
               </figcaption>			
             </figure>
