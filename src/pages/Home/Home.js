@@ -37,7 +37,7 @@ class Home extends Component {
             <figure className="effect-honey">
               <img src={require("../../imgs/1.jpeg")} alt="img05"/>
               <figcaption>
-                <h2>Customer <span>Service</span><br/><i>VIEWS JOBS</i></h2>
+                <h2>Customer <span>Service</span><br/><i>VIEW JOBS</i></h2>
                 <a href="#">View more</a>
               </figcaption>			
             </figure>
@@ -208,7 +208,7 @@ class Home extends Component {
               <img src={require("../../imgs/1.jpeg")} alt="img17"/>
               <figcaption>
                 <h2>Customer <span>Service</span></h2>
-                <p>VieW Jobs</p>
+                <p>View Jobs</p>
                 <a href="#">View more</a>
               </figcaption>			
             </figure>

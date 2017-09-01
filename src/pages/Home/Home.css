@@ -9,16 +9,6 @@ body {
 	font-family: 'Raleway', Arial, sans-serif;
 }
 
-a {
-	outline: none;
-	color: #3498db;
-	text-decoration: none;
-}
-
-a:hover, a:focus {
-	color: #528cb3;
-}
-
 section {
 	padding: 1em;
 	text-align: center;
@@ -47,11 +37,6 @@ section {
 		padding: 0 10px;
 		text-align: center;
 	}
-}
-
-/* *, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; } // required */
-@font-face {
-
 }
 
 .grid {
@@ -175,6 +160,7 @@ figure.effect-sadie p {
 	padding: 2em;
 	width: 100%;
 	opacity: 0;
+	font-size: 1.2rem;
 	-webkit-transform: translate3d(0,10px,0);
 	transform: translate3d(0,10px,0);
 }
@@ -366,14 +352,13 @@ figure.effect-layla:hover img {
 	transition-delay: 0.15s;
 }
 
-figure.effect-honey {
-	background: #4a3753;
-}
-
 figure.effect-honey img {
-	opacity: 0.9;
 	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
+}
+
+figure.effect-honey:hover {
+	background: #4a3753;
 }
 
 figure.effect-honey:hover img {
@@ -406,6 +391,7 @@ figure.effect-honey h2 {
 figure.effect-honey h2 i {
 	font-style: normal;
 	opacity: 0;
+	font-size: 1.6rem;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: translate3d(0,-30px,0);
@@ -493,9 +479,6 @@ figure.effect-sarah:hover p {
 	transform: translate3d(0,0,0);
 }
 
-figure.effect-selena {
-}
-
 figure.effect-selena img {
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
@@ -509,6 +492,7 @@ figure.effect-selena:hover img {
 }
 
 figure.effect-selena h2 {
+	margin-top: 100px;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,20px,0);
@@ -640,7 +624,7 @@ figure.effect-steve p {
 
 figure.effect-steve h2 {
 	position: relative;
-	margin-top: 2em;
+	margin-top: 100px;
 	padding: 0.25em;
 }
 
@@ -801,7 +785,7 @@ figure.effect-ming:hover img {
 	opacity: 0.2;
 }
 
-figure.effect-duke {
+figure.effect-duke:hover {
 	background: -webkit-linear-gradient(-45deg, #34495e 0%,#cc6055 100%);
 	background: linear-gradient(-45deg, #34495e 0%,#cc6055 100%);
 }
@@ -831,9 +815,9 @@ figure.effect-duke p {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	margin: 0;
-	padding: 0;
-	width: 100%;
+	margin: 25px;
+	width: 90%;
+	padding: 1rem 2rem;
 	border: 2px solid #fff;
 	text-transform: none;
 	font-size: 90%;
