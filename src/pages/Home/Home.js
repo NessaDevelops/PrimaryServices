@@ -8,7 +8,7 @@ class Home extends Component {
         <div className="content">
 
         <div className="grid">
-            <figure className="effect-sadie">
+            <figure className="effect-1">
               <img src={require("../../imgs/2.jpg")} alt="img02"/>
               <figcaption>
                 <h2><span>Professional</span></h2>
@@ -16,7 +16,7 @@ class Home extends Component {
                 <a href="#">View more</a>
               </figcaption>			
             </figure>
-            <figure className="effect-sadie">
+            <figure className="effect-1">
               <img src={require("../../imgs/1.jpeg")} alt="img01"/>
               <figcaption>
                 <h2>Customer <span>Service</span></h2>
@@ -27,14 +27,14 @@ class Home extends Component {
           </div>
 
           <div className="grid">
-            <figure className="effect-honey">
+            <figure className="effect-2">
               <img src={require("../../imgs/2.jpg")} alt="img04"/>
               <figcaption>
                 <h2><span>Professional</span><br/><i>View Jobs</i></h2>
                 <a href="#">View more</a>
               </figcaption>			
             </figure>
-            <figure className="effect-honey">
+            <figure className="effect-2">
               <img src={require("../../imgs/1.jpeg")} alt="img05"/>
               <figcaption>
                 <h2>Customer <span>Service</span><br/><i>VIEW JOBS</i></h2>
@@ -44,7 +44,7 @@ class Home extends Component {
           </div>
 
           <div className="grid">
-            <figure className="effect-layla">
+            <figure className="effect-3">
               <img src={require("../../imgs/2.jpg")} alt="img06"/>
               <figcaption>
                 <h2><span>Professional</span></h2>
@@ -52,7 +52,7 @@ class Home extends Component {
                 <a href="#">View more</a>
               </figcaption>			
             </figure>
-            <figure className="effect-layla">
+            <figure className="effect-3">
               <img src={require("../../imgs/1.jpeg")} alt="img03"/>
               <figcaption>
                 <h2>Customer <span>Service</span></h2>
@@ -63,7 +63,7 @@ class Home extends Component {
           </div>
 
           <div className="grid">
-            <figure className="effect-bubba">
+            <figure className="effect-4">
               <img src={require("../../imgs/2.jpg")} alt="img02"/>
               <figcaption>
                 <h2><span>Professional</span></h2>
@@ -71,7 +71,7 @@ class Home extends Component {
                 <a href="#">View more</a>
               </figcaption>			
             </figure>
-            <figure className="effect-bubba">
+            <figure className="effect-4">
               <img src={require("../../imgs/1.jpeg")} alt="img16"/>
               <figcaption>
                 <h2>Customer <span>Service</span></h2>
@@ -82,7 +82,7 @@ class Home extends Component {
           </div>
 
           <div className="grid">
-            <figure className="effect-sarah">
+            <figure className="effect-5">
               <img src={require("../../imgs/2.jpg")} alt="img13"/>
               <figcaption>
                 <h2><span>Professional</span></h2>
@@ -90,7 +90,7 @@ class Home extends Component {
                 <a href="#">View more</a>
               </figcaption>			
             </figure>
-            <figure className="effect-sarah">
+            <figure className="effect-5">
               <img src={require("../../imgs/1.jpeg")} alt="img20"/>
               <figcaption>
                 <h2>Customer <span>Service</span></h2>
@@ -101,7 +101,7 @@ class Home extends Component {
           </div>
 
           <div className="grid">
-            <figure className="effect-selena">
+            <figure className="effect-6">
               <img src={require("../../imgs/2.jpg")} alt="img10"/>
               <figcaption>
                 <h2><span>Professional</span></h2>
@@ -109,7 +109,7 @@ class Home extends Component {
                 <a href="#">View more</a>
               </figcaption>			
             </figure>
-            <figure className="effect-selena">
+            <figure className="effect-6">
               <img src={require("../../imgs/1.jpeg")} alt="img31"/>
               <figcaption>
                 <h2>Customer <span>Service</span></h2>
@@ -120,7 +120,7 @@ class Home extends Component {
           </div>
 
           <div className="grid">
-            <figure className="effect-apollo">
+            <figure className="effect-7">
               <img src={require("../../imgs/2.jpg")} alt="img18"/>
               <figcaption>
                 <h2><span>Professional</span></h2>
@@ -128,7 +128,7 @@ class Home extends Component {
                 <a href="#">View more</a>
               </figcaption>			
             </figure>
-            <figure className="effect-apollo">
+            <figure className="effect-7">
               <img src={require("../../imgs/1.jpeg")} alt="img22"/>
               <figcaption>
                 <h2>Customer <span>Service</span></h2>
@@ -139,7 +139,7 @@ class Home extends Component {
           </div>
 
           <div className="grid">
-            <figure className="effect-steve">
+            <figure className="effect-8">
               <img src={require("../../imgs/2.jpg")} alt="img29"/>
               <figcaption>
                 <h2><span>Professional</span></h2>
@@ -147,7 +147,7 @@ class Home extends Component {
                 <a href="#">View more</a>
               </figcaption>			
             </figure>
-            <figure className="effect-steve">
+            <figure className="effect-8">
               <img src={require("../../imgs/1.jpeg")} alt="img33"/>
               <figcaption>
                 <h2>Customer <span>Service</span></h2>
@@ -158,7 +158,7 @@ class Home extends Component {
           </div>
 
           <div className="grid">
-            <figure className="effect-jazz">
+            <figure className="effect-9">
               <img src={require("../../imgs/2.jpg")} alt="img25"/>
               <figcaption>
                 <h2><span>Professional</span></h2>
@@ -166,7 +166,7 @@ class Home extends Component {
                 <a href="#">View more</a>
               </figcaption>			
             </figure>
-            <figure className="effect-jazz">
+            <figure className="effect-9">
               <img src={require("../../imgs/1.jpeg")} alt="img06"/>
               <figcaption>
                 <h2>Customer <span>Service</span></h2>
@@ -177,7 +177,7 @@ class Home extends Component {
           </div>
 
           <div className="grid">
-            <figure className="effect-ming">
+            <figure className="effect-10">
               <img src={require("../../imgs/2.jpg")} alt="img09"/>
               <figcaption>
                 <h2><span>Professional</span></h2>
@@ -185,7 +185,7 @@ class Home extends Component {
                 <a href="#">View more</a>
               </figcaption>			
             </figure>
-            <figure className="effect-ming">
+            <figure className="effect-10">
               <img src={require("../../imgs/1.jpeg")} alt="img08"/>
               <figcaption>
                 <h2>Customer <span>Service</span></h2>
@@ -196,7 +196,7 @@ class Home extends Component {
           </div>
 
           <div className="grid">
-            <figure className="effect-duke">
+            <figure className="effect-11">
               <img src={require("../../imgs/2.jpg")} alt="img27"/>
               <figcaption>
                 <h2><span>Professional</span></h2>
@@ -204,7 +204,7 @@ class Home extends Component {
                 <a href="#">View more</a>
               </figcaption>			
             </figure>
-            <figure className="effect-duke">
+            <figure className="effect-11">
               <img src={require("../../imgs/1.jpeg")} alt="img17"/>
               <figcaption>
                 <h2>Customer <span>Service</span></h2>

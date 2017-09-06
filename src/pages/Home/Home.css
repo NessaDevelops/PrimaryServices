@@ -122,7 +122,7 @@ section {
 	font-size: 68.5%;
 }
 
-figure.effect-sadie figcaption::before {
+figure.effect-1 figcaption::before {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -136,7 +136,7 @@ figure.effect-sadie figcaption::before {
 	transform: translate3d(0,50%,0);
 }
 
-figure.effect-sadie h2 {
+figure.effect-1 h2 {
 	position: absolute;
 	top: 50%;
 	left: 0;
@@ -147,13 +147,13 @@ figure.effect-sadie h2 {
 	transform: translate3d(0,-50%,0);
 }
 
-figure.effect-sadie figcaption::before,
-figure.effect-sadie p {
+figure.effect-1 figcaption::before,
+figure.effect-1 p {
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 }
 
-figure.effect-sadie p {
+figure.effect-1 p {
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -165,107 +165,95 @@ figure.effect-sadie p {
 	transform: translate3d(0,10px,0);
 }
 
-figure.effect-sadie:hover h2 {
+figure.effect-1:hover h2 {
 	color: #fff;
 	-webkit-transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
 	transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
 }
 
-figure.effect-sadie:hover figcaption::before ,
-figure.effect-sadie:hover p {
+figure.effect-1:hover figcaption::before ,
+figure.effect-1:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
-figure.effect-bubba img {
-	opacity: 0.4;
+figure.effect-2 img {
 	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 }
 
-figure.effect-bubba:hover {
-	background: #9e5406;
+figure.effect-2:hover {
+	background: #4a3753;
 }
 
-figure.effect-bubba:hover img {
-	opacity: 0.4;
+figure.effect-2:hover img {
+	opacity: 0.5;
 }
 
-figure.effect-bubba figcaption::before,
-figure.effect-bubba figcaption::after {
+figure.effect-2 figcaption::before {
 	position: absolute;
-	top: 30px;
-	right: 30px;
-	bottom: 30px;
-	left: 30px;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 10px;
+	background: #fff;
 	content: '';
+	-webkit-transform: translate3d(0,10px,0);
+	transform: translate3d(0,10px,0);
+}
+
+figure.effect-2 h2 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 1em 1.5em;
+	width: 100%;
+	text-align: left;
+	-webkit-transform: translate3d(0,-30px,0);
+	transform: translate3d(0,-30px,0);
+}
+
+figure.effect-2 h2 i {
+	font-style: normal;
 	opacity: 0;
+	font-size: 1.6rem;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0,-30px,0);
+	transform: translate3d(0,-30px,0);
 }
 
-figure.effect-bubba figcaption::before {
-	border-top: 1px solid #fff;
-	border-bottom: 1px solid #fff;
-	-webkit-transform: scale(0,1);
-	transform: scale(0,1);
-}
-
-figure.effect-bubba figcaption::after {
-	border-right: 1px solid #fff;
-	border-left: 1px solid #fff;
-	-webkit-transform: scale(1,0);
-	transform: scale(1,0);
-}
-
-figure.effect-bubba h2 {
-	padding-top: 30%;
+figure.effect-2 figcaption::before,
+figure.effect-2 h2 {
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
-	-webkit-transform: translate3d(0,-20px,0);
-	transform: translate3d(0,-20px,0);
 }
 
-figure.effect-bubba p {
-	padding: 20px 2.5em;
-	opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(0,20px,0);
-	transform: translate3d(0,20px,0);
-}
-
-figure.effect-bubba:hover figcaption::before,
-figure.effect-bubba:hover figcaption::after {
-	opacity: 1;
-	-webkit-transform: scale(1);
-	transform: scale(1);
-}
-
-figure.effect-bubba:hover h2,
-figure.effect-bubba:hover p {
+figure.effect-2:hover figcaption::before,
+figure.effect-2:hover h2,
+figure.effect-2:hover h2 i {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
-figure.effect-layla img {
+figure.effect-3 img {
 	height: 390px;
 }
 
-figure.effect-layla figcaption {
+figure.effect-3 figcaption {
 	padding: 3em;
 }
 
-figure.effect-layla figcaption::before,
-figure.effect-layla figcaption::after {
+figure.effect-3 figcaption::before,
+figure.effect-3 figcaption::after {
 	position: absolute;
 	content: '';
 	opacity: 0;
 }
 
-figure.effect-layla figcaption::before {
+figure.effect-3 figcaption::before {
 	top: 50px;
 	right: 30px;
 	bottom: 50px;
@@ -278,7 +266,7 @@ figure.effect-layla figcaption::before {
 	transform-origin: 0 0;
 }
 
-figure.effect-layla figcaption::after {
+figure.effect-3 figcaption::after {
 	top: 30px;
 	right: 50px;
 	bottom: 30px;
@@ -291,13 +279,13 @@ figure.effect-layla figcaption::after {
 	transform-origin: 100% 0;
 }
 
-figure.effect-layla h2 {
+figure.effect-3 h2 {
 	padding-top: 26%;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 }
 
-figure.effect-layla p {
+figure.effect-3 p {
 	padding: 0.5em 2em;
   text-transform: none;
   font-size: 1.4rem;
@@ -306,113 +294,125 @@ figure.effect-layla p {
 	transform: translate3d(0,-10px,0);
 }
 
-figure.effect-layla img,
-figure.effect-layla h2 {
+figure.effect-3 img,
+figure.effect-3 h2 {
 	-webkit-transform: translate3d(0,-30px,0);
 	transform: translate3d(0,-30px,0);
 }
 
-figure.effect-layla img,
-figure.effect-layla figcaption::before,
-figure.effect-layla figcaption::after,
-figure.effect-layla p {
+figure.effect-3 img,
+figure.effect-3 figcaption::before,
+figure.effect-3 figcaption::after,
+figure.effect-3 p {
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 }
 
-figure.effect-layla:hover {
+figure.effect-3:hover {
 	background: #18a367;
 }
 
-figure.effect-layla:hover img {
+figure.effect-3:hover img {
 	opacity: 0.4;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
-figure.effect-layla:hover figcaption::before,
-figure.effect-layla:hover figcaption::after {
+figure.effect-3:hover figcaption::before,
+figure.effect-3:hover figcaption::after {
 	opacity: 1;
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
 
-figure.effect-layla:hover h2,
-figure.effect-layla:hover p {
+figure.effect-3:hover h2,
+figure.effect-3:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
-figure.effect-layla:hover figcaption::after,
-figure.effect-layla:hover h2,
-figure.effect-layla:hover p,
-figure.effect-layla:hover img {
+figure.effect-3:hover figcaption::after,
+figure.effect-3:hover h2,
+figure.effect-3:hover p,
+figure.effect-3:hover img {
 	-webkit-transition-delay: 0.15s;
 	transition-delay: 0.15s;
 }
 
-figure.effect-honey img {
+figure.effect-4 img {
+	opacity: 0.4;
 	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 }
 
-figure.effect-honey:hover {
-	background: #4a3753;
+figure.effect-4:hover {
+	background: #9e5406;
 }
 
-figure.effect-honey:hover img {
-	opacity: 0.5;
+figure.effect-4:hover img {
+	opacity: 0.4;
 }
 
-figure.effect-honey figcaption::before {
+figure.effect-4 figcaption::before,
+figure.effect-4 figcaption::after {
 	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	height: 10px;
-	background: #fff;
+	top: 30px;
+	right: 30px;
+	bottom: 30px;
+	left: 30px;
 	content: '';
-	-webkit-transform: translate3d(0,10px,0);
-	transform: translate3d(0,10px,0);
-}
-
-figure.effect-honey h2 {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	padding: 1em 1.5em;
-	width: 100%;
-	text-align: left;
-	-webkit-transform: translate3d(0,-30px,0);
-	transform: translate3d(0,-30px,0);
-}
-
-figure.effect-honey h2 i {
-	font-style: normal;
 	opacity: 0;
-	font-size: 1.6rem;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(0,-30px,0);
-	transform: translate3d(0,-30px,0);
 }
 
-figure.effect-honey figcaption::before,
-figure.effect-honey h2 {
+figure.effect-4 figcaption::before {
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+
+figure.effect-4 figcaption::after {
+	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
+	-webkit-transform: scale(1,0);
+	transform: scale(1,0);
+}
+
+figure.effect-4 h2 {
+	padding-top: 30%;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,-20px,0);
+	transform: translate3d(0,-20px,0);
 }
 
-figure.effect-honey:hover figcaption::before,
-figure.effect-honey:hover h2,
-figure.effect-honey:hover h2 i {
+figure.effect-4 p {
+	padding: 20px 2.5em;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0,20px,0);
+	transform: translate3d(0,20px,0);
+}
+
+figure.effect-4:hover figcaption::before,
+figure.effect-4:hover figcaption::after {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+figure.effect-4:hover h2,
+figure.effect-4:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
-figure.effect-sarah img {
+figure.effect-5 img {
 	max-width: none;
 	width: -webkit-calc(100% + 20px);
 	width: calc(100% + 20px);
@@ -424,27 +424,27 @@ figure.effect-sarah img {
 	backface-visibility: hidden;
 }
 
-figure.effect-sarah:hover {
+figure.effect-5:hover {
 	background: #42b078;
 }
 
-figure.effect-sarah:hover img {
+figure.effect-5:hover img {
 	opacity: 0.4;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
-figure.effect-sarah figcaption {
+figure.effect-5 figcaption {
 	text-align: left;
 }
 
-figure.effect-sarah h2 {
+figure.effect-5 h2 {
 	position: relative;
 	overflow: hidden;
 	padding: 0.5em 0;
 }
 
-figure.effect-sarah h2::after {
+figure.effect-5 h2::after {
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -458,12 +458,12 @@ figure.effect-sarah h2::after {
 	transform: translate3d(-100%,0,0);
 }
 
-figure.effect-sarah:hover h2::after {
+figure.effect-5:hover h2::after {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
-figure.effect-sarah p {
+figure.effect-5 p {
   padding: 1em 0;
   font-size: 1.2rem;
 	opacity: 0;
@@ -473,25 +473,25 @@ figure.effect-sarah p {
 	transform: translate3d(100%,0,0);
 }
 
-figure.effect-sarah:hover p {
+figure.effect-5:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
-figure.effect-selena img {
+figure.effect-6 img {
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform-origin: 50% 50%;
 	transform-origin: 50% 50%;
 }
 
-figure.effect-selena:hover img {
+figure.effect-6:hover img {
 	-webkit-transform: scale3d(0.95,0.95,1);
 	transform: scale3d(0.95,0.95,1);
 }
 
-figure.effect-selena h2 {
+figure.effect-6 h2 {
 	margin-top: 100px;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
@@ -499,7 +499,7 @@ figure.effect-selena h2 {
 	transform: translate3d(0,20px,0);
 }
 
-figure.effect-selena p {
+figure.effect-6 p {
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
@@ -509,25 +509,25 @@ figure.effect-selena p {
 	transform-origin: 50% 0%;
 }
 
-figure.effect-selena:hover h2 {
+figure.effect-6:hover h2 {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
-figure.effect-selena:hover p {
+figure.effect-6:hover p {
 	opacity: 1;
 	-webkit-transform: perspective(1000px) rotate3d(1,0,0,0);
 	transform: perspective(1000px) rotate3d(1,0,0,0);
 }
 
-figure.effect-apollo img {
+figure.effect-7 img {
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: scale3d(1.05,1.05,1);
 	transform: scale3d(1.05,1.05,1);
 }
 
-figure.effect-apollo figcaption::before {
+figure.effect-7 figcaption::before {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -541,7 +541,7 @@ figure.effect-apollo figcaption::before {
 	transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
 }
 
-figure.effect-apollo p {
+figure.effect-7 p {
 	position: absolute;
 	right: 0;
 	bottom: 0;
@@ -555,39 +555,39 @@ figure.effect-apollo p {
 	transition: opacity 0.35s;
 }
 
-figure.effect-apollo h2 {
+figure.effect-7 h2 {
 	text-align: left;
 }
 
-figure.effect-apollo:hover {
+figure.effect-7:hover {
 	background: #3498db;
 }
 
-figure.effect-apollo:hover img {
+figure.effect-7:hover img {
 	opacity: 0.6;
 	-webkit-transform: scale3d(1,1,1);
 	transform: scale3d(1,1,1);
 }
 
-figure.effect-apollo:hover figcaption::before {
+figure.effect-7:hover figcaption::before {
 	-webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
 	transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
 }
 
-figure.effect-apollo:hover p {
+figure.effect-7:hover p {
 	opacity: 1;
 	-webkit-transition-delay: 0.1s;
 	transition-delay: 0.1s;
 }
 
-figure.effect-steve {
+figure.effect-8 {
 	z-index: auto;
 	overflow: visible;
 	background: #000;
 }
 
-figure.effect-steve:before,
-figure.effect-steve h2:before {
+figure.effect-8:before,
+figure.effect-8 h2:before {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -600,39 +600,39 @@ figure.effect-steve h2:before {
 	transition: opacity 0.35s;
 }
 
-figure.effect-steve:before {
+figure.effect-8:before {
 	box-shadow: 0 3px 30px rgba(0,0,0,0.8);
 	opacity: 0;
 }
 
-figure.effect-steve figcaption {
+figure.effect-8 figcaption {
 	z-index: 1;
 }
 
-figure.effect-steve img {
+figure.effect-8 img {
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: perspective(1000px) translate3d(0,0,0);
 	transform: perspective(1000px) translate3d(0,0,0);
 }
 
-figure.effect-steve h2,
-figure.effect-steve p {
+figure.effect-8 h2,
+figure.effect-8 p {
 	background: #fff;
 	color: #2d434e;
 }
 
-figure.effect-steve h2 {
+figure.effect-8 h2 {
 	position: relative;
 	margin-top: 100px;
 	padding: 0.25em;
 }
 
-figure.effect-steve h2:before {
+figure.effect-8 h2:before {
 	box-shadow: 0 1px 10px rgba(174, 174, 174, 0.50);
 }
 
-figure.effect-steve p {
+figure.effect-8 p {
 	margin-top: 1em;
 	padding: 0.5em;
 	font-weight: 800;
@@ -643,33 +643,33 @@ figure.effect-steve p {
 	transform: scale3d(0.9,0.9,1);
 }
 
-figure.effect-steve:hover:before {
+figure.effect-8:hover:before {
 	opacity: 1;
 }
 
-figure.effect-steve:hover img {
+figure.effect-8:hover img {
 	-webkit-transform: perspective(1000px) translate3d(0,0,21px);
 	transform: perspective(1000px) translate3d(0,0,21px);
 }
 
-figure.effect-steve:hover h2:before {
+figure.effect-8:hover h2:before {
 	opacity: 0;
 }
 
-figure.effect-steve:hover p {
+figure.effect-8:hover p {
 	opacity: 1;
 	-webkit-transform: scale3d(1,1,1);
 	transform: scale3d(1,1,1);
 }
 
-figure.effect-jazz figcaption::after,
-figure.effect-jazz img,
-figure.effect-jazz p {
+figure.effect-9 figcaption::after,
+figure.effect-9 img,
+figure.effect-9 p {
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 }
 
-figure.effect-jazz figcaption::after {
+figure.effect-9 figcaption::after {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -685,56 +685,56 @@ figure.effect-jazz figcaption::after {
 	transform-origin: 50% 50%;
 }
 
-figure.effect-jazz h2,
-figure.effect-jazz p {
+figure.effect-9 h2,
+figure.effect-9 p {
 	opacity: 1;
 	-webkit-transform: scale3d(0.8,0.8,1);
 	transform: scale3d(0.8,0.8,1);
 }
 
-figure.effect-jazz h2 {
+figure.effect-9 h2 {
 	padding-top: 26%;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 }
 
-figure.effect-jazz p {
+figure.effect-9 p {
 	padding: 0.5em 2em;
 	text-transform: none;
 	font-size: 0.85em;
 	opacity: 0;
 }
 
-figure.effect-jazz:hover {
+figure.effect-9:hover {
   background: -webkit-linear-gradient(-45deg, #f3cf3f 0%,#f33f58 100%);
 	background: linear-gradient(-45deg, #f3cf3f 0%,#F33F57 100%);
 }
 
-figure.effect-jazz:hover img {
+figure.effect-9:hover img {
 	opacity: 0.4;
 	-webkit-transform: scale3d(1.05,1.05,1);
   transform: scale3d(1.05,1.05,1);
 }
 
-figure.effect-jazz:hover figcaption::after {
+figure.effect-9:hover figcaption::after {
 	opacity: 1;
 	-webkit-transform: rotate3d(0,0,1,45deg) scale3d(1,1,1);
 	transform: rotate3d(0,0,1,45deg) scale3d(1,1,1);
 }
 
-figure.effect-jazz:hover h2,
-figure.effect-jazz:hover p {
+figure.effect-9:hover h2,
+figure.effect-9:hover p {
 	opacity: 1;
 	-webkit-transform: scale3d(1,1,1);
 	transform: scale3d(1,1,1);
 }
 
-figure.effect-ming img {
+figure.effect-10 img {
 	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 }
 
-figure.effect-ming figcaption::before {
+figure.effect-10 figcaption::before {
 	position: absolute;
 	top: 30px;
 	right: 30px;
@@ -750,13 +750,13 @@ figure.effect-ming figcaption::before {
 	transform: scale3d(1.4,1.4,1);
 }
 
-figure.effect-ming h2 {
+figure.effect-10 h2 {
 	margin: 20% 0 10px 0;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 }
 
-figure.effect-ming p {
+figure.effect-10 p {
 	padding: 1em;
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -765,44 +765,44 @@ figure.effect-ming p {
 	transform: scale(1.5);
 }
 
-figure.effect-ming:hover h2 {
+figure.effect-10:hover h2 {
 	-webkit-transform: scale(0.9);
 	transform: scale(0.9);
 }
 
-figure.effect-ming:hover figcaption::before,
-figure.effect-ming:hover p {
+figure.effect-10:hover figcaption::before,
+figure.effect-10:hover p {
 	opacity: 1;
 	-webkit-transform: scale3d(1,1,1);
 	transform: scale3d(1,1,1);
 }
 
-figure.effect-ming:hover figcaption {
+figure.effect-10:hover figcaption {
 	background-color: rgba(58,52,42,0);
 }
 
-figure.effect-ming:hover img {
+figure.effect-10:hover img {
 	opacity: 0.2;
 }
 
-figure.effect-duke:hover {
+figure.effect-11:hover {
 	background: -webkit-linear-gradient(-45deg, #34495e 0%,#cc6055 100%);
 	background: linear-gradient(-45deg, #34495e 0%,#cc6055 100%);
 }
 
-figure.effect-duke img,
-figure.effect-duke p {
+figure.effect-11 img,
+figure.effect-11 p {
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 }
 
-figure.effect-duke:hover img {
+figure.effect-11:hover img {
 	opacity: 0.1;
 	-webkit-transform: scale3d(2,2,1);
 	transform: scale3d(2,2,1);
 }
 
-figure.effect-duke h2 {
+figure.effect-11 h2 {
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: scale3d(0.8,0.8,1);
@@ -811,7 +811,7 @@ figure.effect-duke h2 {
 	transform-origin: 50% 100%;
 }
 
-figure.effect-duke p {
+figure.effect-11 p {
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -828,8 +828,8 @@ figure.effect-duke p {
 	transform-origin: 50% -100%;
 }
 
-figure.effect-duke:hover h2,
-figure.effect-duke:hover p {
+figure.effect-11:hover h2,
+figure.effect-11:hover p {
 	opacity: 1;
 	-webkit-transform: scale3d(1,1,1);
 	transform: scale3d(1,1,1);
