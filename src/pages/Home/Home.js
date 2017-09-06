@@ -7,25 +7,6 @@ class Home extends Component {
       <div className="Home">
         <div className="content">
 
-        <div className="grid">
-            <figure className="effect-1">
-              <img src={require("../../imgs/2.jpg")} alt="img02"/>
-              <figcaption>
-                <h2><span>Professional</span></h2>
-                <p>View Jobs</p>
-                <a href="#">View more</a>
-              </figcaption>			
-            </figure>
-            <figure className="effect-1">
-              <img src={require("../../imgs/1.jpeg")} alt="img01"/>
-              <figcaption>
-                <h2>Customer <span>Service</span></h2>
-                <p>View Jobs</p>
-                <a href="#">View more</a>
-              </figcaption>			
-            </figure>
-          </div>
-
           <div className="grid">
             <figure className="effect-2">
               <img src={require("../../imgs/2.jpg")} alt="img04"/>
@@ -38,25 +19,6 @@ class Home extends Component {
               <img src={require("../../imgs/1.jpeg")} alt="img05"/>
               <figcaption>
                 <h2>Customer <span>Service</span><br/><i>VIEW JOBS</i></h2>
-                <a href="#">View more</a>
-              </figcaption>			
-            </figure>
-          </div>
-
-          <div className="grid">
-            <figure className="effect-3">
-              <img src={require("../../imgs/2.jpg")} alt="img06"/>
-              <figcaption>
-                <h2><span>Professional</span></h2>
-                <p>View Jobs</p>
-                <a href="#">View more</a>
-              </figcaption>			
-            </figure>
-            <figure className="effect-3">
-              <img src={require("../../imgs/1.jpeg")} alt="img03"/>
-              <figcaption>
-                <h2>Customer <span>Service</span></h2>
-                <p>View Jobs</p>
                 <a href="#">View more</a>
               </figcaption>			
             </figure>
@@ -101,25 +63,6 @@ class Home extends Component {
           </div>
 
           <div className="grid">
-            <figure className="effect-6">
-              <img src={require("../../imgs/2.jpg")} alt="img10"/>
-              <figcaption>
-                <h2><span>Professional</span></h2>
-                <p>View Jobs</p>
-                <a href="#">View more</a>
-              </figcaption>			
-            </figure>
-            <figure className="effect-6">
-              <img src={require("../../imgs/1.jpeg")} alt="img31"/>
-              <figcaption>
-                <h2>Customer <span>Service</span></h2>
-                <p>View Jobs</p>
-                <a href="#">View more</a>
-              </figcaption>			
-            </figure>
-          </div>
-
-          <div className="grid">
             <figure className="effect-7">
               <img src={require("../../imgs/2.jpg")} alt="img18"/>
               <figcaption>
@@ -133,25 +76,6 @@ class Home extends Component {
               <figcaption>
                 <h2>Customer <span>Service</span></h2>
                 <p>View Jobs</p>
-                <a href="#">View more</a>
-              </figcaption>			
-            </figure>
-          </div>
-
-          <div className="grid">
-            <figure className="effect-8">
-              <img src={require("../../imgs/2.jpg")} alt="img29"/>
-              <figcaption>
-                <h2><span>Professional</span></h2>
-                <p>View Jobs</p>
-                <a href="#">View more</a>
-              </figcaption>			
-            </figure>
-            <figure className="effect-8">
-              <img src={require("../../imgs/1.jpeg")} alt="img33"/>
-              <figcaption>
-                <h2>Customer <span>Service</span></h2>
-                <p>View jobs</p>
                 <a href="#">View more</a>
               </figcaption>			
             </figure>
@@ -190,25 +114,6 @@ class Home extends Component {
               <figcaption>
                 <h2>Customer <span>Service</span></h2>
                 <p>View jobs</p>
-                <a href="#">View more</a>
-              </figcaption>			
-            </figure>
-          </div>
-
-          <div className="grid">
-            <figure className="effect-11">
-              <img src={require("../../imgs/2.jpg")} alt="img27"/>
-              <figcaption>
-                <h2><span>Professional</span></h2>
-                <p>View Jobs</p>
-                <a href="#">View more</a>
-              </figcaption>			
-            </figure>
-            <figure className="effect-11">
-              <img src={require("../../imgs/1.jpeg")} alt="img17"/>
-              <figcaption>
-                <h2>Customer <span>Service</span></h2>
-                <p>View Jobs</p>
                 <a href="#">View more</a>
               </figcaption>			
             </figure>
