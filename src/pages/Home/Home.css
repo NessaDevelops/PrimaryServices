@@ -29,7 +29,6 @@
 }
 
 .search {
-  box-shadow: 0 20px 10px -10px rgba(200, 200, 200, .5);
   display: inline-block;
 }
 
@@ -37,24 +36,24 @@
 	width: 90%;
   outline: 0;
   padding: .6rem .6rem .6rem 1.2rem;
-  font-size: 1rem;
+	font-size: 1rem;
 	float: left;
-	border: 1px solid #65646A;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 	border-top-left-radius: 12px;
 	border-bottom-left-radius: 12px;
 }
 
 .search__button {
 	width: 10%;
-  box-shadow: -10px 0 10px -5px rgba(#7EBD41, .5);
   color: #fff;
   background-color: #7EBD41;
-  line-height: 2.35rem;
+  line-height: 2.5rem;
   text-align: center;
   border: 0;
   cursor: pointer;
   outline: 0;
 	transition: box-shadow .3s ease-out;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 	border-top-right-radius: 12px;
 	border-bottom-right-radius: 12px;
 }
@@ -64,20 +63,18 @@
 }
 
 .grid {
-	position: relative;
-	margin: 0 auto;
-	padding: 1em 0 4em;
-	max-width: 1000px;
 	list-style: none;
 	text-align: center;
+	margin-top: 80px;
+	display: flex;
+	flex-direction: row;
 }
 
 /* Common style */
 .grid figure {
 	position: relative;
-	float: left;
 	overflow: hidden;
-	margin: 10px 1%;
+	margin: 0;
 	min-width: 320px;
 	max-width: 480px;
 	max-height: 360px;

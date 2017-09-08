@@ -2,22 +2,18 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding: 1rem;
 }
 
 .logo {
   height: 2.5rem;
   width: 7rem;
-  margin: 1.5rem 2rem;
   background: url("../../imgs/logo.png") no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-}
-
-nav {
-  padding: .8rem 3rem;
-}  
+} 
 
 nav img {
   height: 3rem;
