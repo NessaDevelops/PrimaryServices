@@ -8,7 +8,11 @@ class Home extends Component {
       <div className="Home">
         <NavBar></NavBar>
         <div className="content">
-
+          <h1>Looking for a job?</h1>
+          <h5>Take the next step in your career</h5>
+          <div>
+            
+          </div>
           <div className="grid">
             <figure className="effect">
               <img src={require("../../imgs/1.jpg")} alt="img01"/>
