@@ -26,7 +26,7 @@ class Home extends Component {
             <figure className="effect">
               <img src={require("../../imgs/2.jpeg")} alt="img02"/>
               <figcaption>
-                <h2>Customer <span>Service</span></h2>
+                <h2>Corporate <span>Office Support</span></h2>
                 <p>View Jobs</p>
                 <a href="">View more</a>
               </figcaption>			
@@ -42,7 +42,7 @@ class Home extends Component {
             <figure className="effect">
               <img src={require("../../imgs/4.jpg")} alt="img04"/>
               <figcaption>
-                <h2>Customer <span>Service</span></h2>
+                <h2>IT/<span>Engineering</span></h2>
                 <p>View Jobs</p>
                 <a href="">View more</a>
               </figcaption>			

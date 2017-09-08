@@ -19,3 +19,7 @@ nav img {
   height: 3rem;
   padding: .8rem .8rem;
 }
+
+div img {
+  vertical-align: middle;
+}

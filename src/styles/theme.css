@@ -1,4 +1,39 @@
 @font-face {
-  font-family: Montserrat;
-  src: url("./fonts/Montserrat/Montserrat-Regular.otf");
+  font-family: FreightBlackItalic;
+  src: url("./fonts/Freight Sans Black Italic.otf");
+}
+
+@font-face {
+  font-family: FreightBlack;
+  src: url("./fonts/Freight Sans Black.otf");
+}
+
+@font-face {
+  font-family: FreightBold;
+  src: url("./fonts/Freight Sans Bold.otf");
+}
+
+@font-face {
+  font-family: FreightBook;
+  src: url("./fonts/Freight Sans Book.otf");
+}
+
+@font-face {
+  font-family: FreightLightItalic;
+  src: url("./fonts/Freight Sans Light Italic.otf");
+}
+
+@font-face {
+  font-family: FreightLight;
+  src: url("./fonts/Freight Sans Light.otf");
+}
+
+@font-face {
+  font-family: FreightMediumItalic;
+  src: url("./fonts/Freight Sans Medium Italic.otf");
+}
+
+@font-face {
+  font-family: FreightMedium;
+  src: url("./fonts/Freight Sans Medium.otf");
 }

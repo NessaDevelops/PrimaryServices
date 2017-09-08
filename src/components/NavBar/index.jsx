@@ -25,7 +25,7 @@ class Navbar extends Component {
         </nav>
         <div>
           MENU
-          <img src={require("../../imgs/menu.png")} />
+          <img src={require("../../imgs/menu.png")} alt="menu" />
         </div>
       </header>
     );
