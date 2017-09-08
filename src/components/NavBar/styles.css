@@ -5,9 +5,9 @@ header {
 }
 
 .logo {
-  height: 2.5em;
-  width: 2.5em;
-  margin: 1.5em 2em;
+  height: 8rem;
+  width: 10rem;
+  margin: 1.5rem 2rem;
   background: url("../../imgs/logo.png") no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
@@ -16,66 +16,12 @@ header {
 }
 
 nav {
-  padding: .8em 3em;
+  padding: .8rem 3rem;
 }  
 
-nav p {
-  list-style: none;
-  display: inline-block;
-  padding: .85em;
-  color: #000;
-  margin: 1em 1em;
-}
-
-nav p,
-nav p:after,
-nav p:before {
-  transition: color .5s;
-}
-
-nav p:hover {
-  color: #FFF;
-}
-
-nav.fill p {
-  position: relative;
-}
-
-nav.fill p:after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 0%;
-  content: '.';
-  color: transparent;
-  background: #aaa;
-  height: 1px;
-}
-
-nav p {
-  transition: color 2s;
-}
-
-nav p:after {
-  text-align: left;
-  content: '.';
-  margin: 0;
-  opacity: 0;
-}
-
-nav p:hover {
-  color: #fff;
-  z-index: 1;
-}
-
-nav p:hover:after {
-  z-index: -10;
-  animation: fill 1s forwards;
-  -webkit-animation: fill 1s forwards;
-  -moz-animation: fill 1s forwards;
-  opacity: 1;
+nav img {
+  height: 4rem;
+  padding: .8rem 1rem;
 }
 
 @-webkit-keyframes fill {

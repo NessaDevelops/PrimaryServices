@@ -11,13 +11,16 @@ class Navbar extends Component {
         </Link>
         <nav>
           <Link to="/about">
-            <p>About</p>
+            <img src={require("../../imgs/facebook.png")} alt="facebook" />
           </Link>
           <Link to="/projects">
-            <p>Projects</p>
+            <img src={require("../../imgs/linkedin.png")} alt="linkedin" />
           </Link>
           <Link to="/contact">
-            <p>Contact</p>
+            <img src={require("../../imgs/twitter.png")} alt="twitter" />
+          </Link>
+          <Link to="/contact">
+            <img src={require("../../imgs/google.png")} alt="google+" />
           </Link>
         </nav>
         <div>
