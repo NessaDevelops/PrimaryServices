@@ -80,12 +80,8 @@
 	position: relative;
 	overflow: hidden;
 	margin: 0;
-	width: 25%;
-	height: 20rem;
-	min-width: 320px;
-	max-width: 480px;
-	min-height: 300px;
-	max-height: 300px;
+	width: 30rem;
+	height: 22rem;
   background: #030c17;
 	text-align: center;
 	cursor: pointer;
@@ -134,16 +130,17 @@
 .grid figure h2 {
 	word-spacing: -0.15em;
 	font-weight: 300;
+	vertical-align: center;
 }
 
 .grid figure h2 span {
 	font-weight: 800;
 }
 
-.grid figure h2,
+/* .grid figure h2,
 .grid figure p {
 	margin: 0;
-}
+} */
 
 .grid figure p {
 	letter-spacing: 1px;

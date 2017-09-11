@@ -20,6 +20,7 @@ nav img {
   padding: .8rem .8rem;
 }
 
-div img {
+header div img {
+  margin: -.2rem 0 0 .4rem;
   vertical-align: middle;
 }
