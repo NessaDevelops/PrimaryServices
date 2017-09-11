@@ -10,18 +10,18 @@ class Navbar extends Component {
           <div className="logo" />
         </Link>
         <nav>
-          <Link to="/about">
+          <a href="https://www.facebook.com/PrimaryServices">
             <img src={require("../../imgs/facebook.png")} alt="facebook" />
-          </Link>
-          <Link to="/projects">
+          </a>
+          <a href="https://www.linkedin.com/company/23099/">
             <img src={require("../../imgs/linkedin.png")} alt="linkedin" />
-          </Link>
-          <Link to="/contact">
+          </a>
+          <a href="https://twitter.com/primaryservices">
             <img src={require("../../imgs/twitter.png")} alt="twitter" />
-          </Link>
-          <Link to="/contact">
+          </a>
+          <a href="https://plus.google.com/+PrimaryServicesHouston">
             <img src={require("../../imgs/google.png")} alt="google+" />
-          </Link>
+          </a>
         </nav>
         <div>
           MENU
