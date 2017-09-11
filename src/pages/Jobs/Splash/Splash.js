@@ -31,7 +31,7 @@ class Splash extends Component {
       <div className="Splash">
         <NavBar></NavBar>
         <h1>Looking for a job?</h1>
-        <h5>Take the next step in your career</h5>
+        <h4>Take the next step in your career</h4>
         <SearchBar></SearchBar>
         <div className="grid">
           <Tile src={require("../../../imgs/Stock/professional.jpg")} alt="professional" titleBold="Professional"></Tile>
