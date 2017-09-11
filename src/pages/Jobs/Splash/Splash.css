@@ -2,19 +2,18 @@
 .clearfix:before, .clearfix:after { display: table; content: ''; }
 .clearfix:after { clear: both; }
 
-.content {
+.Splash {
 	margin: 0 auto;
 	text-align: center;
 }
 
-.content h1 {
+.Splash h1 {
 	margin-top: 8rem;
 	margin-bottom: .5rem;
 }
 
-.content .search-container {
-	margin-top: 2.6rem;
-	margin-bottom: 3rem;
+.Splash h5 {
+	margin-bottom: 2.6rem;
 }
 
 .grid {
@@ -79,12 +78,12 @@
 	opacity: 0;
 }
 
-.grid figure h2 {
+.grid figure h3 {
 	word-spacing: -0.15em;
 	vertical-align: center;
 }
 
-.grid figure h2 span {
+.grid figure h3 span {
 	font-weight: 800;
 }
 
@@ -136,7 +135,7 @@ figure.effect figcaption::after {
 	transform: scale(1,0);
 }
 
-figure.effect h2 {
+figure.effect h3 {
 	padding-top: 30%;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
@@ -160,7 +159,7 @@ figure.effect:hover figcaption::after {
 	transform: scale(1);
 }
 
-figure.effect:hover h2,
+figure.effect:hover h3,
 figure.effect:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);

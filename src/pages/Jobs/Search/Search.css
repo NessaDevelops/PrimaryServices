@@ -1,0 +1,20 @@
+.Search h2 {
+	margin-top: 6rem;
+	margin-bottom: 1.6rem;
+	text-align: center;
+}
+
+.Search .container {
+	display: flex;
+	flex-flow: row wrap;
+	margin-top: 2rem;
+	padding: 4rem;
+}
+
+aside {
+	width: 30%;
+}
+
+section {
+	width: 70%;
+}

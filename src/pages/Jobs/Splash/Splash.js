@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import NavBar from '../../../components/NavBar';
 import SearchBar from '../../../components/SearchBar';
 import './Splash.css';
@@ -10,7 +9,7 @@ class Tile extends Component {
       <figure className="effect">
         <img src={this.props.src} alt={this.props.alt}/>
         <figcaption>
-          <h2>{this.props.title}<span>{this.props.titleBold}</span></h2>
+          <h3>{this.props.title}<span>{this.props.titleBold}</span></h3>
           <p>View Jobs</p>
           <a href="">View more</a>
         </figcaption>			
@@ -26,25 +25,23 @@ Tile.propTypes = {
   titleBold: React.PropTypes.string.isRequired
 }
 
-class Home extends Component {
+class Splash extends Component {
   render() {
     return (
-      <div className="Home">
+      <div className="Splash">
         <NavBar></NavBar>
-        <div className="content">
-          <h1>Looking for a job?</h1>
-          <h5>Take the next step in your career</h5>
-          <SearchBar></SearchBar>
-          <div className="grid">
-            <Tile src={require("../../../imgs/Stock/professional.jpg")} alt="professional" titleBold="Professional"></Tile>
-            <Tile src={require("../../../imgs/Stock/office.jpeg")} alt="office" title="Corporate" titleBold="Office Support"></Tile>
-            <Tile src={require("../../../imgs/Stock/customer.jpeg")} alt="professional" title="Customer" titleBold="Service"></Tile>
-            <Tile src={require("../../../imgs/Stock/it.jpg")} alt="it" title="IT/" titleBold="Engineering"></Tile>
-          </div>
+        <h1>Looking for a job?</h1>
+        <h5>Take the next step in your career</h5>
+        <SearchBar></SearchBar>
+        <div className="grid">
+          <Tile src={require("../../../imgs/Stock/professional.jpg")} alt="professional" titleBold="Professional"></Tile>
+          <Tile src={require("../../../imgs/Stock/office.jpeg")} alt="office" title="Corporate" titleBold="Office Support"></Tile>
+          <Tile src={require("../../../imgs/Stock/customer.jpeg")} alt="professional" title="Customer" titleBold="Service"></Tile>
+          <Tile src={require("../../../imgs/Stock/it.jpg")} alt="it" title="IT/" titleBold="Engineering"></Tile>
         </div>
       </div>
     );
   }
 }
 
-export default Home;
+export default Splash;
