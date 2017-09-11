@@ -11,12 +11,12 @@ class ViewJob extends Component {
         <h2>Professional</h2>
           <div className="container">
             <section>
-              <img src={require("../../../imgs/Icons/back.png")} /><a>Back to results</a>
+              <img className="Small-Icon" src={require("../../../imgs/Icons/back.png")} /><a>Back to results</a>
               <div className="job">
                 <h5>Bilingual Customer Service</h5>
                 <div className="job-header">
-                  <img src={require("../../../imgs/Icons/location.png")} /><p>Houston, TX</p>
-                  <img src={require("../../../imgs/Icons/clock.png")} /><p>Posted Today</p>
+                  <img className="Small-Icon" src={require("../../../imgs/Icons/location.png")} /><p>Houston, TX</p>
+                  <img className="Small-Icon" src={require("../../../imgs/Icons/clock.png")} /><p>Posted Today</p>
                 </div>
                 <p>Ready for the next step in your Customer Service career? Primary Services is conducting interviews for Bilingual Tier I customer service roles with an up and coming green energy company.  In this role, you will be providing high-level professional customer service to customers in North and South America! Apply Immediately!</p>
                 <p><br/>Ready to work in a call center that isn’t just a dead end job? Apply now to join a rapidly growing industry with large potential for career growth!</p>

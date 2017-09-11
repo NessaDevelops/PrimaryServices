@@ -12,7 +12,7 @@
 	justify-content: center;
 }
 
-aside {
+.Search aside {
 	width: 16%;
 }
 
@@ -35,17 +35,17 @@ aside {
 	padding: .3rem 0 1rem .6rem;
 }
 
-section {
+.Search section {
 	width: 50%;
 	padding-left: 6rem;
 }
 
-section h5 {
+.Search section h5 {
 	color: #000;
 	font-family: FreightBold;
 }
 
-.job {
+.Search .job {
 	padding-bottom: 3rem;
 	margin-bottom: 3rem;
 	border-bottom: 1px solid #D3D3D3;
@@ -54,8 +54,4 @@ section h5 {
 .job-header {
 	display: flex;
 	flex-direction: row;
-}
-
-.job-header img {
-	height: 1rem;
 }

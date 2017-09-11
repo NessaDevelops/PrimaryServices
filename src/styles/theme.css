@@ -37,3 +37,7 @@
   font-family: FreightMedium;
   src: url("./fonts/Freight Sans Medium.otf");
 }
+
+.Small-Icon {
+	height: 1rem;
+}

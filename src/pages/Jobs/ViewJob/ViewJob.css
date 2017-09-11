@@ -1,5 +1,30 @@
+.ViewJob .container {
+	display: flex;
+	flex-flow: row wrap;
+	margin-top: 2rem;
+	padding: 4rem;
+	justify-content: center;
+}
+
 .ViewJob h2 {
   margin-top: 6rem;
   margin-bottom: 1.6rem;
   text-align: center;
+}
+
+.ViewJob section {
+  width: 50%;
+  padding-right: 6rem;
+  border-right: 1px solid #D3D3D3;
+}
+
+.ViewJob aside {
+  width: 26%;
+  padding-left: 3rem;
+}
+
+.ViewJob aside .job {
+  padding-bottom: 1rem;
+  margin-bottom: 3rem;
+	border-bottom: 1px solid #D3D3D3;
 }
