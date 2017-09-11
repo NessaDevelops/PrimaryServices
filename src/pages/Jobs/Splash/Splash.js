@@ -4,7 +4,7 @@ import NavBar from '../../../components/NavBar';
 import SearchBar from '../../../components/SearchBar';
 import './Splash.css';
 
-class JobTile extends Component {
+class Tile extends Component {
   render() {
     return (
       <figure className="effect">
@@ -19,7 +19,7 @@ class JobTile extends Component {
   }
 }
 
-JobTile.propTypes = {
+Tile.propTypes = {
   src: React.PropTypes.string.isRequired,
   alt: React.PropTypes.string.isRequired,
   title: React.PropTypes.string,
@@ -36,10 +36,10 @@ class Home extends Component {
           <h5>Take the next step in your career</h5>
           <SearchBar></SearchBar>
           <div className="grid">
-            <JobTile src={require("../../../imgs/Stock/professional.jpg")} alt="professional" titleBold="Professional"></JobTile>
-            <JobTile src={require("../../../imgs/Stock/office.jpeg")} alt="office" title="Corporate" titleBold="Office Support"></JobTile>
-            <JobTile src={require("../../../imgs/Stock/customer.jpeg")} alt="professional" title="Customer" titleBold="Service"></JobTile>
-            <JobTile src={require("../../../imgs/Stock/it.jpg")} alt="it" title="IT/" titleBold="Engineering"></JobTile>
+            <Tile src={require("../../../imgs/Stock/professional.jpg")} alt="professional" titleBold="Professional"></Tile>
+            <Tile src={require("../../../imgs/Stock/office.jpeg")} alt="office" title="Corporate" titleBold="Office Support"></Tile>
+            <Tile src={require("../../../imgs/Stock/customer.jpeg")} alt="professional" title="Customer" titleBold="Service"></Tile>
+            <Tile src={require("../../../imgs/Stock/it.jpg")} alt="it" title="IT/" titleBold="Engineering"></Tile>
           </div>
         </div>
       </div>
