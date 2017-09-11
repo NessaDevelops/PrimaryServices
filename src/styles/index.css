@@ -19,7 +19,7 @@ body {
 }
 
 h1 {
-	font-size: 5rem;
+	font-size: 6rem;
 	color: #F89C27;
 }
 
@@ -36,7 +36,8 @@ h4 {
 }
 
 h5 {
-	font-size: 1.4rem;
+	font-size: 1.5rem;
+	letter-spacing: .1rem;
 	color: #65646A;
 }
 

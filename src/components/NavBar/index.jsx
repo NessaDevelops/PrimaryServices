@@ -11,21 +11,21 @@ class Navbar extends Component {
         </Link>
         <nav>
           <a href="https://www.facebook.com/PrimaryServices">
-            <img src={require("../../imgs/facebook.png")} alt="facebook" />
+            <img src={require("../../imgs/Icons/facebook.png")} alt="facebook" />
           </a>
           <a href="https://www.linkedin.com/company/23099/">
-            <img src={require("../../imgs/linkedin.png")} alt="linkedin" />
+            <img src={require("../../imgs/Icons/linkedin.png")} alt="linkedin" />
           </a>
           <a href="https://twitter.com/primaryservices">
-            <img src={require("../../imgs/twitter.png")} alt="twitter" />
+            <img src={require("../../imgs/Icons/twitter.png")} alt="twitter" />
           </a>
           <a href="https://plus.google.com/+PrimaryServicesHouston">
-            <img src={require("../../imgs/google.png")} alt="google+" />
+            <img src={require("../../imgs/Icons/google.png")} alt="google+" />
           </a>
         </nav>
         <div>
           MENU
-          <img src={require("../../imgs/menu.png")} alt="menu" />
+          <img src={require("../../imgs/Icons/menu.png")} alt="menu" />
         </div>
       </header>
     );
