@@ -131,17 +131,11 @@
 .grid figure h2 {
 	word-spacing: -0.15em;
 	vertical-align: center;
-	margin-top: 1vh;
 }
 
 .grid figure h2 span {
 	font-weight: 800;
 }
-
-/* .grid figure h2,
-.grid figure p {
-	margin: 0;
-} */
 
 .grid figure p {
 	letter-spacing: 1px;
