@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import NavBar from '../../../components/NavBar';
+import SearchBar from '../../../components/SearchBar';
 import './Splash.css';
 
 class Home extends Component {
@@ -11,12 +12,7 @@ class Home extends Component {
         <div className="content">
           <h1>Looking for a job?</h1>
           <h5>Take the next step in your career</h5>
-          <form className="search-container">
-            <input className="search__input" type="text" placeholder="Job Title, Company or Keyword" />
-            <Link to="/search">
-              <button className="search__button" type="submit" />
-            </Link>
-          </form>
+          <SearchBar></SearchBar>
           <div className="grid">
             <figure className="effect">
               <img src={require("../../../imgs/Stock/professional.jpg")} alt="professional"/>
