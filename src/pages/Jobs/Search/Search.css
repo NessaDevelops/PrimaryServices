@@ -45,6 +45,12 @@ section h5 {
 	font-family: FreightBold;
 }
 
+.job {
+	padding-bottom: 3rem;
+	margin-bottom: 3rem;
+	border-bottom: 1px solid #D3D3D3;
+}
+
 .job-header {
 	display: flex;
 	flex-direction: row;
