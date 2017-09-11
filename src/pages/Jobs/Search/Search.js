@@ -79,9 +79,12 @@ class Search extends Component {
             <section>
               <div className="job">
                 <h5>Bilingual Customer Service</h5>
-                <p>Houston, TX</p><p>Posted Today</p>
-                <p>Ready for the next step in your Customer Service career? Primary Services is conducting interviews for Bilingual Tier I customer service roles with an up and coming green energy company.  In this role, you will be providing high-level professional customer service to customers in North and South America! Apply Immediately! 
-                  Ready to work in a call center that isn’t just a dead end job? Apply now to join a rapidly growing industry with large potential for career growth!</p>
+                <div className="job-header">
+                  <img src={require("../../../imgs/Icons/facebook.png")} /><p>Houston, TX</p>
+                  <img src={require("../../../imgs/Icons/facebook.png")} /><p>Posted Today</p>
+                </div>
+                <p>Ready for the next step in your Customer Service career? Primary Services is conducting interviews for Bilingual Tier I customer service roles with an up and coming green energy company.  In this role, you will be providing high-level professional customer service to customers in North and South America! Apply Immediately!</p>
+                <p><br/>Ready to work in a call center that isn’t just a dead end job? Apply now to join a rapidly growing industry with large potential for career growth!</p>
                 <Link to="/viewjob">
                   <p>View Job</p>
                 </Link>
