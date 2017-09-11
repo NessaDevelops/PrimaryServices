@@ -4,6 +4,28 @@ import NavBar from '../../../components/NavBar';
 import SearchBar from '../../../components/SearchBar';
 import './Splash.css';
 
+class JobTile extends Component {
+  render() {
+    return (
+      <figure className="effect">
+        <img src={this.props.src} alt={this.props.alt}/>
+        <figcaption>
+          <h2>{this.props.title}<span>{this.props.titleBold}</span></h2>
+          <p>View Jobs</p>
+          <a href="">View more</a>
+        </figcaption>			
+      </figure>
+    )
+  }
+}
+
+JobTile.propTypes = {
+  src: React.PropTypes.string.isRequired,
+  alt: React.PropTypes.string.isRequired,
+  title: React.PropTypes.string,
+  titleBold: React.PropTypes.string.isRequired
+}
+
 class Home extends Component {
   render() {
     return (
@@ -14,40 +36,11 @@ class Home extends Component {
           <h5>Take the next step in your career</h5>
           <SearchBar></SearchBar>
           <div className="grid">
-            <figure className="effect">
-              <img src={require("../../../imgs/Stock/professional.jpg")} alt="professional"/>
-              <figcaption>
-                <h2><span>Professional</span></h2>
-                <p>View Jobs</p>
-                <a href="">View more</a>
-              </figcaption>			
-            </figure>
-            <figure className="effect">
-              <img src={require("../../../imgs/Stock/office.jpeg")} alt="office"/>
-              <figcaption>
-                <h2>Corporate <span>Office Support</span></h2>
-                <p>View Jobs</p>
-                <a href="">View more</a>
-              </figcaption>			
-            </figure>
-            <figure className="effect">
-              <img src={require("../../../imgs/Stock/customer.jpeg")} alt="customer"/>
-              <figcaption>
-                <h2>Customer <span>Service</span></h2>
-                <p>View Jobs</p>
-                <a href="">View more</a>
-              </figcaption>			
-            </figure>
-            <figure className="effect">
-              <img src={require("../../../imgs/Stock/it.jpg")} alt="it"/>
-              <figcaption>
-                <h2>IT/<span>Engineering</span></h2>
-                <p>View Jobs</p>
-                <a href="">View more</a>
-              </figcaption>			
-            </figure>
+            <JobTile src={require("../../../imgs/Stock/professional.jpg")} alt="professional" titleBold="Professional"></JobTile>
+            <JobTile src={require("../../../imgs/Stock/office.jpeg")} alt="office" title="Corporate" titleBold="Office Support"></JobTile>
+            <JobTile src={require("../../../imgs/Stock/customer.jpeg")} alt="professional" title="Customer" titleBold="Service"></JobTile>
+            <JobTile src={require("../../../imgs/Stock/it.jpg")} alt="it" title="IT/" titleBold="Engineering"></JobTile>
           </div>
-
         </div>
       </div>
     );
