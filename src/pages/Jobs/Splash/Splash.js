@@ -12,7 +12,7 @@ class Home extends Component {
           <h5>Take the next step in your career</h5>
           <form className="search-container">
             <input className="search__input" type="text" placeholder="Job Title, Company or Keyword" />
-            <button className="search__button" type="submit">Search</button>
+            <button className="search__button" type="submit" />
           </form>
           <div className="grid">
             <figure className="effect">

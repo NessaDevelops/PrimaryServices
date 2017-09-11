@@ -27,14 +27,14 @@
 }
 
 .search__input {
-	width: 90%;
+	width: 93%;
   outline: 0;
   padding: .6rem .6rem .6rem 1.2rem;
 	font-size: 1rem;
 	float: left;
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-	border-top-left-radius: 12px;
-	border-bottom-left-radius: 12px;
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
 }
 
 .search__input::-webkit-input-placeholder {
@@ -42,9 +42,11 @@
 }
 
 .search__button {
-	width: 10%;
+	width: 7%;
+	height: 2.8rem;
   color: #fff;
-  background-color: #7EBD41;
+	background: #7EBD41 url("../../../imgs/Icons/search.png") no-repeat 9px 6px;
+	background-size: 22px 22px;
   line-height: 2.5rem;
   text-align: center;
   border: 0;
@@ -52,8 +54,8 @@
   outline: 0;
 	transition: box-shadow .3s ease-out;
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-	border-top-right-radius: 12px;
-	border-bottom-right-radius: 12px;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
 }
 
 .search__button:active {
