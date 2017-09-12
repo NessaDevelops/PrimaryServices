@@ -2,7 +2,8 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 1rem; }
+  padding: 1rem;
+}
 
 .logo {
   height: 2.5rem;
@@ -11,12 +12,15 @@ header {
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover; }
+  -o-background-size: cover;
+} 
 
 nav img {
   height: 3rem;
-  padding: .8rem .8rem; }
+  padding: .8rem .8rem;
+}
 
 header div img {
   margin: -.2rem 0 0 .4rem;
-  vertical-align: middle; }
+  vertical-align: middle;
+}
