@@ -1,61 +1,68 @@
-.Search h2 {
-	margin-top: 6rem;
-	margin-bottom: 1.6rem;
-	text-align: center;
-}
+.Search {
 
-.Search .container {
-	display: flex;
-	flex-flow: row wrap;
-	margin-top: 2rem;
-	padding: 4rem;
-	justify-content: center;
-}
+	h2 {
+		margin-top: 6rem;
+		margin-bottom: 1.6rem;
+		text-align: center;
+	}
 
-aside {
-	width: 16%;
-}
+	.container {
+		display: flex;
+		flex-flow: row wrap;
+		margin-top: 2rem;
+		padding: 4rem;
+		justify-content: center;
 
-.criteria-container {
-	margin-top: 1rem;
-	border: 1px solid #D3D3D3;
-	padding: 2rem 1.6rem;
-}
+		aside {
+			width: 16%;
 
-.criteria {
-	display: flex;
-	flex-direction: column;
-}
+			.criteria-container {
+				margin-top: 1rem;
+				border: 1px solid #D3D3D3;
+				padding: 2rem 1.6rem;
 
-.criteria h6 {
-	font-family: FreightBold;
-}
+				.criteria {
+					display: flex;
+					flex-direction: column;
 
-.criteria form {
-	padding: .3rem 0 1rem .6rem;
-}
+					h6 {
+						font-family: FreightBold;
+					}
 
-section {
-	width: 50%;
-	padding-left: 6rem;
-}
+					form {
+						padding: .3rem 0 1rem .6rem;
+					}
+				}
+			}
+		}
 
-section h5 {
-	color: #000;
-	font-family: FreightBold;
-}
+		section {
+			width: 50%;
+			padding-left: 6rem;
 
-.job {
-	padding-bottom: 3rem;
-	margin-bottom: 3rem;
-	border-bottom: 1px solid #D3D3D3;
-}
+			h5 {
+				color: #000;
+				font-family: FreightBold;
+			}
 
-.job-header {
-	display: flex;
-	flex-direction: row;
-}
+			.job {
+				padding-bottom: 3rem;
+				margin-bottom: 3rem;
+				border-bottom: 1px solid #D3D3D3;
 
-.job-header img {
-	height: 1rem;
-}
+				.job-header {
+					display: flex;
+					flex-direction: row;
+
+					img {
+						height: 1rem;
+					}
+				} 
+			}
+		}
+	}
+} 
+
+
+
+

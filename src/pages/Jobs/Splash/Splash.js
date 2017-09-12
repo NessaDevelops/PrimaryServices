@@ -6,7 +6,7 @@ import './Splash.css';
 class Tile extends Component {
   render() {
     return (
-      <figure className="effect">
+      <figure>
         <img src={this.props.src} alt={this.props.alt}/>
         <figcaption>
           <h3>{this.props.title}<span>{this.props.titleBold}</span></h3>
