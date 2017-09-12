@@ -12,13 +12,13 @@
 	justify-content: center;
 }
 
-.Search aside {
+aside {
 	width: 16%;
 }
 
 .criteria-container {
 	margin-top: 1rem;
-	border: 1px solid $Light-Grey;
+	border: 1px solid #D3D3D3;
 	padding: 2rem 1.6rem;
 }
 
@@ -35,23 +35,27 @@
 	padding: .3rem 0 1rem .6rem;
 }
 
-.Search section {
+section {
 	width: 50%;
 	padding-left: 6rem;
 }
 
-.Search section h5 {
+section h5 {
 	color: #000;
 	font-family: FreightBold;
 }
 
-.Search .job {
+.job {
 	padding-bottom: 3rem;
 	margin-bottom: 3rem;
-	border-bottom: 1px solid $Light-Grey;
+	border-bottom: 1px solid #D3D3D3;
 }
 
 .job-header {
 	display: flex;
 	flex-direction: row;
+}
+
+.job-header img {
+	height: 1rem;
 }

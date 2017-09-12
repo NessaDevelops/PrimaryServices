@@ -37,15 +37,3 @@
   font-family: FreightMedium;
   src: url("./fonts/Freight Sans Medium.otf");
 }
-
-.Small-Icon {
-	height: 1rem;
-}
-
-// Colors
-$White: #FFF;
-$Black: #000;
-$Grey: #65646A;
-$Light-Grey: #D3D3D3;
-$Orange: #F89C27;
-$Green: #7EBD41;

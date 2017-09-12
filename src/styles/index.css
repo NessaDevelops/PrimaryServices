@@ -1,0 +1,63 @@
+html, body, div, span, h1, h2, h3, h4, h5, 
+h6, p, a, em, img, strike, strong, sub, sup, 
+b, u, i, ol, ul, li, form, label, footer, header {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: FreightMedium, sans-serif;
+  font-size: 1em;
+}
+
+h1 {
+	font-size: 6rem;
+	color: #F89C27;
+}
+
+h2 {
+	font-size: 2.4rem;
+	color: #F89C27;	
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+h4 {
+	font-size: 1.6rem;
+}
+
+h5 {
+	font-size: 1.3rem;
+}
+
+h6 {
+	font-size: 1.1rem;
+}
+
+p, label {
+	font-size: 1.1rem;
+}
+
+a {
+	color: #7EBD41;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 1080px), only screen and (max-device-width: 1080px) {
+	html { font-size: 75%; }
+}
+
+@media only screen and (max-width: 580px), only screen and (max-device-width: 580px) {
+	html { font-size: 45%; }
+	nav p { font-size: 1.4em; }
+}
