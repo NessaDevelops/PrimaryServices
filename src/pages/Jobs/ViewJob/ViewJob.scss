@@ -15,7 +15,7 @@
 .ViewJob section {
   width: 50%;
   padding-right: 6rem;
-  border-right: 1px solid #D3D3D3;
+  border-right: 1px solid $Light-Grey;
 }
 
 .ViewJob aside {
@@ -26,5 +26,5 @@
 .ViewJob aside .job {
   padding-bottom: 1rem;
   margin-bottom: 3rem;
-	border-bottom: 1px solid #D3D3D3;
+	border-bottom: 1px solid $Light-Grey;
 }

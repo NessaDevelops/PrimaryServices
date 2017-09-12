@@ -15,7 +15,7 @@
 .Splash h4 {
 	margin-bottom: 2.6rem;
 	letter-spacing: .1rem;
-	color: #65646A;
+	color: $Grey;
 }
 
 .grid {
@@ -50,7 +50,7 @@
 
 .grid figure figcaption {
 	padding: 2rem;
-	color: #fff;
+	color: $White;
 	text-transform: uppercase;
 	font-size: 1.25rem;
 	-webkit-backface-visibility: hidden;
@@ -124,15 +124,15 @@ figure.effect figcaption::after {
 }
 
 figure.effect figcaption::before {
-	border-top: 1px solid #fff;
-	border-bottom: 1px solid #fff;
+	border-top: 1px solid $White;
+	border-bottom: 1px solid $White;
 	-webkit-transform: scale(0,1);
 	transform: scale(0,1);
 }
 
 figure.effect figcaption::after {
-	border-right: 1px solid #fff;
-	border-left: 1px solid #fff;
+	border-right: 1px solid $White;
+	border-left: 1px solid $White;
 	-webkit-transform: scale(1,0);
 	transform: scale(1,0);
 }
