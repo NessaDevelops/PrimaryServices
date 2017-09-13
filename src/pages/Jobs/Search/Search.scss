@@ -32,13 +32,17 @@
 					form {
 						padding: .3rem 0 1rem .6rem;
 					}
+
+					.input-group {
+						padding: .2rem;
+					}
 				}
 			}
 		}
 
 		section {
 			width: 50%;
-			padding-left: 6rem;
+			padding-left: 5rem;
 
 			h5 {
 				color: #000;
@@ -53,11 +57,26 @@
 				.job-header {
 					display: flex;
 					flex-direction: row;
+					justify-content: space-between;
 
-					img {
-						height: 1rem;
+					.icon-text {
+						display: flex;
+						flex-direction: row;
+
+						img {
+							margin-right: .2rem;
+							height: 1.2rem;
+						}
 					}
 				} 
+
+				p:nth-child(3), a p {
+					margin: .6rem 0 0 1.4rem;
+				}
+
+				a p {
+					font-family: FreightBold;					
+				}
 			}
 		}
 	}
