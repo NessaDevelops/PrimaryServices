@@ -4,6 +4,35 @@ import NavBar from '../../../components/NavBar';
 import SearchBar from '../../../components/SearchBar';
 import './Search.css';
 
+class Job extends Component {
+  render() {
+    return (
+      <div className="job">
+        <h5>{this.props.title}</h5>
+        <div className="job-header">
+          <div className="icon-text">
+            <img src={require("../../../imgs/Icons/location.png")} /><p>{this.props.location}</p>
+          </div>
+          <div className="icon-text">
+            <img src={require("../../../imgs/Icons/clock.png")} /><p>{this.props.posted}</p>
+          </div>
+        </div>
+        <p>{this.props.description}</p>
+        <Link to="/viewjob">
+          <p>View Job</p>
+        </Link>
+      </div>
+    )
+  }
+}
+
+Job.propTypes = {
+  title: React.PropTypes.string.isRequired,
+  location: React.PropTypes.string.isRequired,
+  posted: React.PropTypes.string.isRequired,
+  description: React.PropTypes.string.isRequired
+}
+
 class Search extends Component {
   render() {
     return (
@@ -77,70 +106,18 @@ class Search extends Component {
               </div>
             </aside>
             <section>
-              <div className="job">
-                <h5>Bilingual Customer Service</h5>
-                <div className="job-header">
-                  <div className="icon-text">
-                    <img src={require("../../../imgs/Icons/location.png")} /><p>Houston, TX</p>
-                  </div>
-                  <div className="icon-text">
-                    <img src={require("../../../imgs/Icons/clock.png")} /><p>Posted Today</p>
-                  </div>
-                </div>
-                <p>Ready for the next step in your Customer Service career? Primary Services is conducting interviews for Bilingual Tier I customer service roles with an up and coming green energy company.  In this role, you will be providing high-level professional customer service to customers in North and South America! Apply Immediately!
-                <br/><br/>Ready to work in a call center that isn’t just a dead end job? Apply now to join a rapidly growing industry with large potential for career growth!</p>
-                <Link to="/viewjob">
-                  <p>View Job</p>
-                </Link>
-              </div>
-              <div className="job">
-                <h5>Bilingual Customer Service</h5>
-                <div className="job-header">
-                  <div className="icon-text">
-                    <img src={require("../../../imgs/Icons/location.png")} /><p>Houston, TX</p>
-                  </div>
-                  <div className="icon-text">
-                    <img src={require("../../../imgs/Icons/clock.png")} /><p>Posted Today</p>
-                  </div>
-                </div>
-                <p>Ready for the next step in your Customer Service career? Primary Services is conducting interviews for Bilingual Tier I customer service roles with an up and coming green energy company.  In this role, you will be providing high-level professional customer service to customers in North and South America! Apply Immediately!
-                <br/><br/>Ready to work in a call center that isn’t just a dead end job? Apply now to join a rapidly growing industry with large potential for career growth!</p>
-                <Link to="/viewjob">
-                  <p>View Job</p>
-                </Link>
-              </div>
-              <div className="job">
-                <h5>Bilingual Customer Service</h5>
-                <div className="job-header">
-                  <div className="icon-text">
-                    <img src={require("../../../imgs/Icons/location.png")} /><p>Houston, TX</p>
-                  </div>
-                  <div className="icon-text">
-                    <img src={require("../../../imgs/Icons/clock.png")} /><p>Posted Today</p>
-                  </div>
-                </div>
-                <p>Ready for the next step in your Customer Service career? Primary Services is conducting interviews for Bilingual Tier I customer service roles with an up and coming green energy company.  In this role, you will be providing high-level professional customer service to customers in North and South America! Apply Immediately!
-                <br/><br/>Ready to work in a call center that isn’t just a dead end job? Apply now to join a rapidly growing industry with large potential for career growth!</p>
-                <Link to="/viewjob">
-                  <p>View Job</p>
-                </Link>
-              </div>
-              <div className="job">
-                <h5>Bilingual Customer Service</h5>
-                <div className="job-header">
-                  <div className="icon-text">
-                    <img src={require("../../../imgs/Icons/location.png")} /><p>Houston, TX</p>
-                  </div>
-                  <div className="icon-text">
-                    <img src={require("../../../imgs/Icons/clock.png")} /><p>Posted Today</p>
-                  </div>
-                </div>
-                <p>Ready for the next step in your Customer Service career? Primary Services is conducting interviews for Bilingual Tier I customer service roles with an up and coming green energy company.  In this role, you will be providing high-level professional customer service to customers in North and South America! Apply Immediately!
-                <br/><br/>Ready to work in a call center that isn’t just a dead end job? Apply now to join a rapidly growing industry with large potential for career growth!</p>
-                <Link to="/viewjob">
-                  <p>View Job</p>
-                </Link>
-              </div>
+              <Job title="Bilingual Customer Service" location="Houston, TX" posted="Posted Today" 
+                description="Ready for the next step in your Customer Service career? Primary Services is conducting interviews for Bilingual Tier I customer service roles with an up and coming green energy company.  In this role, you will be providing high-level professional customer service to customers in North and South America! Apply Immediately!<br/><br/>Ready to work in a call center that isn’t just a dead end job? Apply now to join a rapidly growing industry with large potential for career growth!">
+              </Job>
+              <Job title="Bilingual Customer Service" location="Houston, TX" posted="Posted Today" 
+                description="Ready for the next step in your Customer Service career? Primary Services is conducting interviews for Bilingual Tier I customer service roles with an up and coming green energy company.  In this role, you will be providing high-level professional customer service to customers in North and South America! Apply Immediately!<br/><br/>Ready to work in a call center that isn’t just a dead end job? Apply now to join a rapidly growing industry with large potential for career growth!">
+              </Job>
+              <Job title="Bilingual Customer Service" location="Houston, TX" posted="Posted Today" 
+                description="Ready for the next step in your Customer Service career? Primary Services is conducting interviews for Bilingual Tier I customer service roles with an up and coming green energy company.  In this role, you will be providing high-level professional customer service to customers in North and South America! Apply Immediately!<br/><br/>Ready to work in a call center that isn’t just a dead end job? Apply now to join a rapidly growing industry with large potential for career growth!">
+              </Job>
+              <Job title="Bilingual Customer Service" location="Houston, TX" posted="Posted Today" 
+                description="Ready for the next step in your Customer Service career? Primary Services is conducting interviews for Bilingual Tier I customer service roles with an up and coming green energy company.  In this role, you will be providing high-level professional customer service to customers in North and South America! Apply Immediately!<br/><br/>Ready to work in a call center that isn’t just a dead end job? Apply now to join a rapidly growing industry with large potential for career growth!">
+              </Job>
             </section>
           </div>
         </div>
