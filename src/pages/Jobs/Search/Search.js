@@ -72,7 +72,7 @@ class Search extends Component {
           <SearchBar></SearchBar>
           <div className="container">
             <aside>
-              <h4>134 Jobs Found</h4>
+              <h4>{this.state.jobs.length} Jobs Found</h4>
               <div className="criteria-container">
                 {searchList}
               </div>
