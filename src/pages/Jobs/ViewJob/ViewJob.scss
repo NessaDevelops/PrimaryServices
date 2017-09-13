@@ -55,8 +55,38 @@
     }
 
     aside {
-      width: 13rem;
-      margin-left: 3rem;
+      width: 10rem;
+      margin: 6rem 0 0 3rem;
+
+      h5 {
+        font-family: FreightBold;
+      }
+
+      p:first-child {
+        font-family: FreightBold;
+      }
+
+      .job {
+        margin-top: 1.6rem;
+        border-bottom: 1px solid #D3D3D3;
+
+        img {
+          margin-right: .2rem;
+          height: 1.2rem;
+        }
+
+        .icon-text {
+          padding: .2rem;
+        }
+
+        a {
+          text-align: right;
+
+          p {
+            margin: .8rem 0 .4rem 0;
+          }
+        }
+      }
     }
   }
 }

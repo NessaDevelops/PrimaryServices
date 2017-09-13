@@ -45,7 +45,6 @@ class ViewJob extends Component {
                 3+ years of experience preparing federal income tax returns for mutual funds, including tax research and corporate experience<br/>
                 Knowledge of derivatives and tax software<br/><br/>
                 If you meet the qualifications outlined above, please apply for immediate consideration!
-
               </p>
               <div className="apply-container">
                 <Link to="/viewjob">
@@ -60,29 +59,49 @@ class ViewJob extends Component {
           <aside>
             <h5>Related Jobs</h5>
             <div className="job">
-              <h5>Accountant III</h5>
-              <p>Houston, TX</p><p>Posted Today</p>
+              <p>Accountant III</p>
+              <div className="icon-text">
+                <img src={require("../../../imgs/Icons/location.png")} /><p>Houston, TX</p>
+              </div>
+              <div className="icon-text">
+                <img src={require("../../../imgs/Icons/clock.png")} /><p>Posted Today</p>
+              </div>
               <Link to="/viewjob">
                 <p>View Job</p>
               </Link>
             </div>
             <div className="job">
-              <h5>Financial Account I</h5>
-              <p>Houston, TX</p><p>Posted Today</p>
+              <p>Financial Account I</p>
+              <div className="icon-text">
+                <img src={require("../../../imgs/Icons/location.png")} /><p>Houston, TX</p>
+              </div>
+              <div className="icon-text">
+                <img src={require("../../../imgs/Icons/clock.png")} /><p>Posted Today</p>
+              </div>
               <Link to="/viewjob">
                 <p>View Job</p>
               </Link>
             </div>
             <div className="job">
-              <h5>Staff Accountant</h5>
-              <p>Houston, TX</p><p>Posted Today</p>
+              <p>Staff Accountant</p>
+              <div className="icon-text">
+                <img src={require("../../../imgs/Icons/location.png")} /><p>Houston, TX</p>
+              </div>
+              <div className="icon-text">
+                <img src={require("../../../imgs/Icons/clock.png")} /><p>Posted Today</p>
+              </div>
               <Link to="/viewjob">
                 <p>View Job</p>
               </Link>
             </div>
             <div className="job">
-              <h5>Accountant - Advanced</h5>
-              <p>Houston, TX</p><p>Posted Today</p>
+              <p>Accountant - Advanced</p>
+              <div className="icon-text">
+                <img src={require("../../../imgs/Icons/location.png")} /><p>Houston, TX</p>
+              </div>
+              <div className="icon-text">
+                <img src={require("../../../imgs/Icons/clock.png")} /><p>Posted Today</p>
+              </div>
               <Link to="/viewjob">
                 <p>View Job</p>
               </Link>
