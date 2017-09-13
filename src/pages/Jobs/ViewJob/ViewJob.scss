@@ -1,5 +1,53 @@
-.ViewJob h2 {
-  margin-top: 6rem;
-  margin-bottom: 1.6rem;
-  text-align: center;
+.ViewJob {
+
+  h2 {
+    margin-top: 6rem;
+    text-align: center;
+  }
+
+  .container {
+    margin: 6rem 3rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    img {
+      height: .6rem;
+      padding-right: .2rem;
+    }
+  
+    .icon-text {
+      display: flex;
+      flex-direction: row;
+    }
+
+    section {
+      width: 40rem;
+
+      .job {
+        margin-top: 2rem;
+        padding-right: 3.5rem;
+        border-right: 1px solid #D3D3D3;
+
+        h4 {
+          margin-bottom: .4rem;
+          font-family: FreightBold;
+        }
+
+        img {
+          height: 1.3rem;
+        }
+
+        .apply-container {
+          text-align: right;
+          float: right;
+        }
+      }
+    }
+
+    aside {
+      width: 13rem;
+      margin-left: 3rem;
+    }
+  }
 }
