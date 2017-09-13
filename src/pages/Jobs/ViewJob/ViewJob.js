@@ -11,7 +11,12 @@ class ViewJob extends Component {
         <h2>Professional</h2>
         <div className="container">
           <section>
-            <img src={require("../../../imgs/Icons/back.png")} /><a>Back to results</a>
+            <div className="icon-text">
+              <img src={require("../../../imgs/Icons/back.png")} />
+              <Link to="/search">
+                <p>Back to results</p>
+              </Link>
+            </div>
             <div className="job">
               <h4>Bilingual Customer Service</h4>
               <div className="icon-text">
