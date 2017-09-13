@@ -33,6 +33,21 @@ Job.propTypes = {
   description: React.PropTypes.string.isRequired
 }
 
+class SearchCriteria extends Component {
+  render() {
+    return (
+      <div className="input-group">
+        <input type="checkbox" />
+        <label>{this.props.name}</label>
+      </div>
+    )
+  }
+}
+
+SearchCriteria.propTypes = {
+  name: React.PropTypes.string.isRequired
+}
+
 class Search extends Component {
   render() {
     return (
@@ -47,60 +62,28 @@ class Search extends Component {
                 <div className="criteria">
                   <h6>Job Category</h6>
                   <form>
-                    <div className="input-group">
-                      <input type="checkbox" />
-                      <label>Category1</label>
-                    </div>
-                    <div className="input-group">
-                      <input type="checkbox" />
-                      <label>Category2</label>
-                    </div>
-                    <div className="input-group">
-                      <input type="checkbox" />
-                      <label>Category3</label>
-                    </div>
-                    <div className="input-group">
-                      <input type="checkbox" />
-                      <label>Category4</label>
-                    </div>
-                    <div className="input-group">
-                      <input type="checkbox" />
-                      <label>Category5</label>
-                    </div>
-                    <div className="input-group">
-                      <input type="checkbox" />
-                      <label>Category6</label>
-                    </div>
+                    <SearchCriteria name="Category1"></SearchCriteria>
+                    <SearchCriteria name="Category2"></SearchCriteria>
+                    <SearchCriteria name="Category3"></SearchCriteria>
+                    <SearchCriteria name="Category4"></SearchCriteria>
+                    <SearchCriteria name="Category5"></SearchCriteria>
+                    <SearchCriteria name="Category6"></SearchCriteria>
                   </form>
                 </div>
                 <div className="criteria">
                   <h6>Type</h6>
                   <form>
-                    <div className="input-group">
-                      <input type="checkbox" />
-                      <label>Full Time</label>
-                    </div>
-                    <div className="input-group">
-                      <input type="checkbox" />
-                      <label>Part Time</label>
-                    </div>
-                    <div className="input-group">
-                      <input type="checkbox" />
-                      <label>Contract/Freelance</label>
-                    </div>
+                    <SearchCriteria name="Full Time"></SearchCriteria>
+                    <SearchCriteria name="Part Time"></SearchCriteria>
+                    <SearchCriteria name="Contract/Freelance"></SearchCriteria>
                   </form>
                 </div>
                 <div className="criteria">
                   <h6>City</h6>
                   <form>
-                    <div className="input-group">
-                      <input type="checkbox" />
-                      <label>Houston, TX</label>
-                    </div>
-                    <div className="input-group">
-                      <input type="checkbox" />
-                      <label>Austin, TX</label>
-                    </div>
+                    <SearchCriteria name="Austin, TX"></SearchCriteria>
+                    <SearchCriteria name="Dallas, TX"></SearchCriteria>
+                    <SearchCriteria name="Houston, TX"></SearchCriteria>
                   </form>
                 </div>
               </div>
